@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "com.wisnu.kurniawan.composetodolist.foundation.datasource.preference.model";
+option java_multiple_files = true;
+
+message UserThemePreference {
+  ThemePreference theme = 1;
+}
+
+enum ThemePreference {
+  SYSTEM = 0;
+  LIGHT = 1;
+  NIGHT = 2;
+  SUNRISE = 3;
+  AURORA = 4;
+  TWILIGHT = 5;
+  WALLPAPER = 6;
+}

@@ -1,0 +1,1 @@
+-keep class com.wisnu.khanu.composetodolist.model.** { *; }

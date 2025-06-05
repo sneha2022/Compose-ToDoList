@@ -1,0 +1,21 @@
+rootProject.name = "Compose-ToDoList"
+
+///////////////
+// PRODUCT MODULE
+//////
+
+include ':app'
+
+
+///////////////
+// CORE MODULE
+//////
+
+
+///////////////
+// TEST MODULE
+//////
+
+include ':test-benchmark'
+
+
